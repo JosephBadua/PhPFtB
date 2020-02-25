@@ -106,10 +106,93 @@
     //     };
     // };
 
-    $string = "asdasjhsfjshfffffffffffffffffffffffffffffffffffffffffffffffffffffffff";
+    // $string = "asdasjhsfjshfffffffffffffffffffffffffffffffffffffffffffffffffffffffff";
 
-    $compressed = gzcompress($string);
+    // $compressed = gzcompress($string);
 
-    echo $compressed;
+    // echo $compressed;
+
+    // $original = gzuncompress($compressed);
+
+    // echo $original;
+
+        // $loggedIn = false;
+
+
+        // echo ($loggedIn) ? 'Good Job' : 'No';
+
+        // $isRegistered = ($loggedIn ? true : false);
+        // echo $isRegistered;
+        
+
+        // $age = 5;
+        // $score = 0;
+
+        // echo 'You score is: ' . ($score > 10 ? ($age > 10 ? 'Average' : 'Exceptional') : 'Low');
+
+        // $arr = [1,2,3,4,5,6]
+
+        // if(filter_has_var(INPUT_POST, 'data')) {
+        //     echo 'Data Found';
+        // } else {
+        //     echo 'No Data';
+        // }
+
+        // if(filter_has_var(INPUT_POST, 'data')) {
+        //     $email = $_POST['data'];
+
+        //     $email = filter_var($email, FILTER_SANITIZE_EMAIL);
+        //     echo $email.'<br>';
+
+        //   if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        //     echo "Email is valid";
+        //   } else {
+        //       echo 'email is not valid';
+        //   }
+        // }
+
+        // $var = '23';
+
+        // if(filter_var($var, FILTER_VALIDATE_INT)) {
+        //     echo $var . " is a number";
+        // } else {
+        //     echo $var . ' is not a number';
+        // }
+
+        // $number = '1232232133213213133';
+        // // var_dump(filter_var($number, FILTER_SANITIZE_NUMBER_INT));
+
+        // $filters = ["data" => FILTER_VALIDATE_EMAIL, "data2" => ["filter" => FILTER_VALIDATE_INT, "options" => ['min-range' => 1, 'max-range' => 100]]]
+
+        // print_r(filter_input_array(INPUT_POST, $filters));
 
 ?>
+
+
+
+    <!-- <div>
+        <?php if($loggedIn): ?>
+            <h1>Welcome</h1>
+        <?php else: ?> 
+            <h1>Welcome Guest</h1>
+        <?php endif ?>
+    </div> 
+
+    <div>
+            <?php foreach($arr as $val): ?>
+                <?php  echo $val; ?>
+        <?php endforeach ?>
+    </div>
+
+    <div>
+        <?php for($i = 0; $i < 10; $i++ ): ?>
+                <?php  echo $i; ?>
+        <?php endfor ?>
+    </div> -->
+<!-- 
+        <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+            <input type="text" name="data">
+            <button type="submit">Submit</button>
+        </form> -->
+
+        
